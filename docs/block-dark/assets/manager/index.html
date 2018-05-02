@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+ <title>Manager | Tree</title>
+ <style type="text/css">
+  <!-- 
+  BODY { font-family : ariel, monospace, sans-serif; }
+  P { font-weight: normal; font-family : ariel, monospace, sans-serif; color: black; background-color: transparent;}
+  B { font-weight: normal; color: black; background-color: transparent;}
+  A:visited { font-weight : normal; text-decoration : none; background-color : transparent; margin : 0px 0px 0px 0px; padding : 0px 0px 0px 0px; display: inline; }
+  A:link    { font-weight : normal; text-decoration : none; margin : 0px 0px 0px 0px; padding : 0px 0px 0px 0px; display: inline; }
+  A:hover   { color : #000000; font-weight : normal; text-decoration : underline; background-color : yellow; margin : 0px 0px 0px 0px; padding : 0px 0px 0px 0px; display: inline; }
+  A:active  { color : #000000; font-weight: normal; background-color : transparent; margin : 0px 0px 0px 0px; padding : 0px 0px 0px 0px; display: inline; }
+  .VERSION { font-size: small; font-family : arial, sans-serif; }
+  .NORM  { color: black;  background-color: transparent;}
+  .FIFO  { color: purple; background-color: transparent;}
+  .CHAR  { color: yellow; background-color: transparent;}
+  .DIR   { color: blue;   background-color: transparent;}
+  .BLOCK { color: yellow; background-color: transparent;}
+  .LINK  { color: aqua;   background-color: transparent;}
+  .SOCK  { color: fuchsia;background-color: transparent;}
+  .EXEC  { color: green;  background-color: transparent;}
+  -->
+ </style>
+</head>
+<body>
+	<h1>Directory Tree</h1><p>
+	<a href="https://willinspire.github.io/admin/block-dark/assets/manager">admin/block-dark/assets/manager</a><br>
+	├── <a href="https://willinspire.github.io/admin/block-dark/assets/manager/css/">css</a><br>
+	│   ├── <a href="https://willinspire.github.io/admin/block-dark/assets/manager/css/elfinder.css">elfinder.css</a><br>
+	│   ├── <a href="https://willinspire.github.io/admin/block-dark/assets/manager/css/elfinder.min.css">elfinder.min.css</a><br>
+	│   └── <a href="https://willinspire.github.io/admin/block-dark/assets/manager/css/theme.css">theme.css</a><br>
+	├── <a href="https://willinspire.github.io/admin/block-dark/assets/manager/files/">files</a><br>
+	│   ├── <a href="https://willinspire.github.io/admin/block-dark/assets/manager/files/Brian_May.jpg">Brian_May.jpg</a><br>
+	│   ├── <a href="https://willinspire.github.io/admin/block-dark/assets/manager/files/LionLogoTheme.jpg">LionLogoTheme.jpg</a><br>
+	│   └── <a href="https://willinspire.github.io/admin/block-dark/assets/manager/files/Lorem_Ipsum.txt">Lorem_Ipsum.txt</a><br>
+	├── <a href="https://willinspire.github.io/admin/block-dark/assets/manager/img/">img</a><br>
+	│   ├── <a href="https://willinspire.github.io/admin/block-dark/assets/manager/img/arrows-active.png">arrows-active.png</a><br>
+	│   ├── <a href="https://willinspire.github.io/admin/block-dark/assets/manager/img/arrows-normal.png">arrows-normal.png</a><br>
+	│   ├── <a href="https://willinspire.github.io/admin/block-dark/assets/manager/img/crop.gif">crop.gif</a><br>
+	│   ├── <a href="https://willinspire.github.io/admin/block-dark/assets/manager/img/dialogs.png">dialogs.png</a><br>
+	│   ├── <a href="https://willinspire.github.io/admin/block-dark/assets/manager/img/icons-big.png">icons-big.png</a><br>
+	│   ├── <a href="https://willinspire.github.io/admin/block-dark/assets/manager/img/icons-small.png">icons-small.png</a><br>
+	│   ├── <a href="https://willinspire.github.io/admin/block-dark/assets/manager/img/logo.png">logo.png</a><br>
+	│   ├── <a href="https://willinspire.github.io/admin/block-dark/assets/manager/img/progress.gif">progress.gif</a><br>
+	│   ├── <a href="https://willinspire.github.io/admin/block-dark/assets/manager/img/quicklook-bg.png">quicklook-bg.png</a><br>
+	│   ├── <a href="https://willinspire.github.io/admin/block-dark/assets/manager/img/quicklook-icons.png">quicklook-icons.png</a><br>
+	│   ├── <a href="https://willinspire.github.io/admin/block-dark/assets/manager/img/resize.png">resize.png</a><br>
+	│   ├── <a href="https://willinspire.github.io/admin/block-dark/assets/manager/img/spinner-mini.gif">spinner-mini.gif</a><br>
+	│   └── <a href="https://willinspire.github.io/admin/block-dark/assets/manager/img/toolbar.png">toolbar.png</a><br>
+	├── <a href="https://willinspire.github.io/admin/block-dark/assets/manager/index.html">index.html</a><br>
+	├── <a href="https://willinspire.github.io/admin/block-dark/assets/manager/js/">js</a><br>
+	│   ├── <a href="https://willinspire.github.io/admin/block-dark/assets/manager/js/elfinder.full.js">elfinder.full.js</a><br>
+	│   ├── <a href="https://willinspire.github.io/admin/block-dark/assets/manager/js/elfinder.min.js">elfinder.min.js</a><br>
+	│   ├── <a href="https://willinspire.github.io/admin/block-dark/assets/manager/js/i18n/">i18n</a><br>
+	│   │   ├── <a href="https://willinspire.github.io/admin/block-dark/assets/manager/js/i18n/elfinder.ar.js">elfinder.ar.js</a><br>
+	│   │   ├── <a href="https://willinspire.github.io/admin/block-dark/assets/manager/js/i18n/elfinder.bg.js">elfinder.bg.js</a><br>
+	│   │   ├── <a href="https://willinspire.github.io/admin/block-dark/assets/manager/js/i18n/elfinder.ca.js">elfinder.ca.js</a><br>
+	│   │   ├── <a href="https://willinspire.github.io/admin/block-dark/assets/manager/js/i18n/elfinder.cs.js">elfinder.cs.js</a><br>
+	│   │   ├── <a href="https://willinspire.github.io/admin/block-dark/assets/manager/js/i18n/elfinder.de.js">elfinder.de.js</a><br>
+	│   │   ├── <a href="https://willinspire.github.io/admin/block-dark/assets/manager/js/i18n/elfinder.es.js">elfinder.es.js</a><br>
+	│   │   ├── <a href="https://willinspire.github.io/admin/block-dark/assets/manager/js/i18n/elfinder.fr.js">elfinder.fr.js</a><br>
+	│   │   ├── <a href="https://willinspire.github.io/admin/block-dark/assets/manager/js/i18n/elfinder.hu.js">elfinder.hu.js</a><br>
+	│   │   ├── <a href="https://willinspire.github.io/admin/block-dark/assets/manager/js/i18n/elfinder.jp.js">elfinder.jp.js</a><br>
+	│   │   ├── <a href="https://willinspire.github.io/admin/block-dark/assets/manager/js/i18n/elfinder.LANG.js">elfinder.LANG.js</a><br>
+	│   │   ├── <a href="https://willinspire.github.io/admin/block-dark/assets/manager/js/i18n/elfinder.nl.js">elfinder.nl.js</a><br>
+	│   │   ├── <a href="https://willinspire.github.io/admin/block-dark/assets/manager/js/i18n/elfinder.no.js">elfinder.no.js</a><br>
+	│   │   ├── <a href="https://willinspire.github.io/admin/block-dark/assets/manager/js/i18n/elfinder.pl.js">elfinder.pl.js</a><br>
+	│   │   ├── <a href="https://willinspire.github.io/admin/block-dark/assets/manager/js/i18n/elfinder.pt_BR.js">elfinder.pt_BR.js</a><br>
+	│   │   ├── <a href="https://willinspire.github.io/admin/block-dark/assets/manager/js/i18n/elfinder.ru.js">elfinder.ru.js</a><br>
+	│   │   └── <a href="https://willinspire.github.io/admin/block-dark/assets/manager/js/i18n/elfinder.zh_CN.js">elfinder.zh_CN.js</a><br>
+	│   └── <a href="https://willinspire.github.io/admin/block-dark/assets/manager/js/proxy/">proxy</a><br>
+	│   &nbsp;&nbsp;&nbsp; └── <a href="https://willinspire.github.io/admin/block-dark/assets/manager/js/proxy/elFinderSupportVer1.js">elFinderSupportVer1.js</a><br>
+	└── <a href="https://willinspire.github.io/admin/block-dark/assets/manager/php/">php</a><br>
+	&nbsp;&nbsp;&nbsp; ├── <a href="https://willinspire.github.io/admin/block-dark/assets/manager/php/connector.php">connector.php</a><br>
+	&nbsp;&nbsp;&nbsp; ├── <a href="https://willinspire.github.io/admin/block-dark/assets/manager/php/elFinder.class.php">elFinder.class.php</a><br>
+	&nbsp;&nbsp;&nbsp; ├── <a href="https://willinspire.github.io/admin/block-dark/assets/manager/php/elFinderConnector.class.php">elFinderConnector.class.php</a><br>
+	&nbsp;&nbsp;&nbsp; ├── <a href="https://willinspire.github.io/admin/block-dark/assets/manager/php/elFinderVolumeDriver.class.php">elFinderVolumeDriver.class.php</a><br>
+	&nbsp;&nbsp;&nbsp; ├── <a href="https://willinspire.github.io/admin/block-dark/assets/manager/php/elFinderVolumeLocalFileSystem.class.php">elFinderVolumeLocalFileSystem.class.php</a><br>
+	&nbsp;&nbsp;&nbsp; ├── <a href="https://willinspire.github.io/admin/block-dark/assets/manager/php/elFinderVolumeMySQL.class.php">elFinderVolumeMySQL.class.php</a><br>
+	&nbsp;&nbsp;&nbsp; ├── <a href="https://willinspire.github.io/admin/block-dark/assets/manager/php/mime.types">mime.types</a><br>
+	&nbsp;&nbsp;&nbsp; └── <a href="https://willinspire.github.io/admin/block-dark/assets/manager/php/MySQLStorage.sql">MySQLStorage.sql</a><br>
+	<br><br>
+	</p>
+	<p>
+
+7 directories, 47 files
+	<br><br>
+	</p>
+	<hr>
+	<p class="VERSION">
+		 tree v1.7.0 © 1996 - 2014 by Steve Baker and Thomas Moore <br>
+		 HTML output hacked and copyleft © 1998 by Francesc Rocher <br>
+		 JSON output hacked and copyleft © 2014 by Florian Sesser <br>
+		 Charsets / OS/2 support © 2001 by Kyosuke Tokoro
+	</p>
+</body>
+</html>
