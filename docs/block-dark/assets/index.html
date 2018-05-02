@@ -1,0 +1,175 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+ <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+ <title>Assets Tree</title>
+ <style type="text/css">
+  <!-- 
+  BODY { font-family : ariel, monospace, sans-serif; }
+  P { font-weight: normal; font-family : ariel, monospace, sans-serif; color: black; background-color: transparent;}
+  B { font-weight: normal; color: black; background-color: transparent;}
+  A:visited { font-weight : normal; text-decoration : none; background-color : transparent; margin : 0px 0px 0px 0px; padding : 0px 0px 0px 0px; display: inline; }
+  A:link    { font-weight : normal; text-decoration : none; margin : 0px 0px 0px 0px; padding : 0px 0px 0px 0px; display: inline; }
+  A:hover   { color : #000000; font-weight : normal; text-decoration : underline; background-color : yellow; margin : 0px 0px 0px 0px; padding : 0px 0px 0px 0px; display: inline; }
+  A:active  { color : #000000; font-weight: normal; background-color : transparent; margin : 0px 0px 0px 0px; padding : 0px 0px 0px 0px; display: inline; }
+  .VERSION { font-size: small; font-family : arial, sans-serif; }
+  .NORM  { color: black;  background-color: transparent;}
+  .FIFO  { color: purple; background-color: transparent;}
+  .CHAR  { color: yellow; background-color: transparent;}
+  .DIR   { color: blue;   background-color: transparent;}
+  .BLOCK { color: yellow; background-color: transparent;}
+  .LINK  { color: aqua;   background-color: transparent;}
+  .SOCK  { color: fuchsia;background-color: transparent;}
+  .EXEC  { color: green;  background-color: transparent;}
+  -->
+ </style>
+</head>
+<body>
+	<h1>Directory Tree</h1><p>
+	<a href="/">/</a><br>
+	├── <a href="https://willinspire.github.io/admin/block-dark/assets/css/">css</a><br>
+	│   ├── <a href="https://willinspire.github.io/admin/block-dark/assets/css/bootstrap.css">bootstrap.css</a><br>
+	│   ├── <a href="https://willinspire.github.io/admin/block-dark/assets/css/flexslider.css">flexslider.css</a><br>
+	│   ├── <a href="https://willinspire.github.io/admin/block-dark/assets/css/font-style.css">font-style.css</a><br>
+	│   ├── <a href="https://willinspire.github.io/admin/block-dark/assets/css/login.css">login.css</a><br>
+	│   ├── <a href="https://willinspire.github.io/admin/block-dark/assets/css/main.css">main.css</a><br>
+	│   ├── <a href="https://willinspire.github.io/admin/block-dark/assets/css/register.css">register.css</a><br>
+	│   └── <a href="https://willinspire.github.io/admin/block-dark/assets/css/table.css">table.css</a><br>
+	├── <a href="https://willinspire.github.io/admin/block-dark/assets/fonts/">fonts</a><br>
+	│   ├── <a href="https://willinspire.github.io/admin/block-dark/assets/fonts/linecons.eot">linecons.eot</a><br>
+	│   ├── <a href="https://willinspire.github.io/admin/block-dark/assets/fonts/linecons.svg">linecons.svg</a><br>
+	│   ├── <a href="https://willinspire.github.io/admin/block-dark/assets/fonts/linecons.ttf">linecons.ttf</a><br>
+	│   └── <a href="https://willinspire.github.io/admin/block-dark/assets/fonts/linecons.woff">linecons.woff</a><br>
+	├── <a href="https://willinspire.github.io/admin/block-dark/assets/fullcalendar/">fullcalendar</a><br>
+	│   ├── <a href="https://willinspire.github.io/admin/block-dark/assets/fullcalendar/fullcalendar.css">fullcalendar.css</a><br>
+	│   ├── <a href="https://willinspire.github.io/admin/block-dark/assets/fullcalendar/fullcalendar.js">fullcalendar.js</a><br>
+	│   ├── <a href="https://willinspire.github.io/admin/block-dark/assets/fullcalendar/fullcalendar.min.js">fullcalendar.min.js</a><br>
+	│   ├── <a href="https://willinspire.github.io/admin/block-dark/assets/fullcalendar/fullcalendar.print.css">fullcalendar.print.css</a><br>
+	│   ├── <a href="https://willinspire.github.io/admin/block-dark/assets/fullcalendar/gcal.js">gcal.js</a><br>
+	│   └── <a href="https://willinspire.github.io/admin/block-dark/assets/fullcalendar/jquery-ui-1.8.23.custom.min.js">jquery-ui-1.8.23.custom.min.js</a><br>
+	├── <a href="https://willinspire.github.io/admin/block-dark/assets/img/">img</a><br>
+	│   ├── <a href="https://willinspire.github.io/admin/block-dark/assets/img/bg.JPG">bg.JPG</a><br>
+	│   ├── <a href="https://willinspire.github.io/admin/block-dark/assets/img/down.png">down.png</a><br>
+	│   ├── <a href="https://willinspire.github.io/admin/block-dark/assets/img/down-small.png">down-small.png</a><br>
+	│   ├── <a href="https://willinspire.github.io/admin/block-dark/assets/img/face36x36.jpg">face36x36.jpg</a><br>
+	│   ├── <a href="https://willinspire.github.io/admin/block-dark/assets/img/face80x80.jpg">face80x80.jpg</a><br>
+	│   ├── <a href="https://willinspire.github.io/admin/block-dark/assets/img/face.jpg">face.jpg</a><br>
+	│   ├── <a href="https://willinspire.github.io/admin/block-dark/assets/img/glyphicons-halflings.png">glyphicons-halflings.png</a><br>
+	│   ├── <a href="https://willinspire.github.io/admin/block-dark/assets/img/glyphicons-halflings-white.png">glyphicons-halflings-white.png</a><br>
+	│   ├── <a href="https://willinspire.github.io/admin/block-dark/assets/img/logo30.png">logo30.png</a><br>
+	│   ├── <a href="https://willinspire.github.io/admin/block-dark/assets/img/logo.png">logo.png</a><br>
+	│   ├── <a href="https://willinspire.github.io/admin/block-dark/assets/img/photo01.jpeg">photo01.jpeg</a><br>
+	│   ├── <a href="https://willinspire.github.io/admin/block-dark/assets/img/photo02.jpg">photo02.jpg</a><br>
+	│   ├── <a href="https://willinspire.github.io/admin/block-dark/assets/img/photo03.jpg">photo03.jpg</a><br>
+	│   ├── <a href="https://willinspire.github.io/admin/block-dark/assets/img/photo04.jpg">photo04.jpg</a><br>
+	│   ├── <a href="https://willinspire.github.io/admin/block-dark/assets/img/sep-half.png">sep-half.png</a><br>
+	│   ├── <a href="https://willinspire.github.io/admin/block-dark/assets/img/slide01.png">slide01.png</a><br>
+	│   ├── <a href="https://willinspire.github.io/admin/block-dark/assets/img/slide02.png">slide02.png</a><br>
+	│   ├── <a href="https://willinspire.github.io/admin/block-dark/assets/img/up.png">up.png</a><br>
+	│   ├── <a href="https://willinspire.github.io/admin/block-dark/assets/img/up-small.png">up-small.png</a><br>
+	│   └── <a href="https://willinspire.github.io/admin/block-dark/assets/img/user-avatar.jpg">user-avatar.jpg</a><br>
+	├── <a href="https://willinspire.github.io/admin/block-dark/assets/js/">js</a><br>
+	│   ├── <a href="https://willinspire.github.io/admin/block-dark/assets/js/admin.js">admin.js</a><br>
+	│   ├── <a href="https://willinspire.github.io/admin/block-dark/assets/js/bootstrap.js">bootstrap.js</a><br>
+	│   ├── <a href="https://willinspire.github.io/admin/block-dark/assets/js/dash-charts.js">dash-charts.js</a><br>
+	│   ├── <a href="https://willinspire.github.io/admin/block-dark/assets/js/dash-noty.js">dash-noty.js</a><br>
+	│   ├── <a href="https://willinspire.github.io/admin/block-dark/assets/js/datatables/">datatables</a><br>
+	│   │   ├── <a href="https://willinspire.github.io/admin/block-dark/assets/js/datatables/jquery.dataTables.js">jquery.dataTables.js</a><br>
+	│   │   └── <a href="https://willinspire.github.io/admin/block-dark/assets/js/datatables/jquery.dataTables.min.js">jquery.dataTables.min.js</a><br>
+	│   ├── <a href="https://willinspire.github.io/admin/block-dark/assets/js/gauge.js">gauge.js</a><br>
+	│   ├── <a href="https://willinspire.github.io/admin/block-dark/assets/js/highcharts.js">highcharts.js</a><br>
+	│   ├── <a href="https://willinspire.github.io/admin/block-dark/assets/js/jquery.flexslider.js">jquery.flexslider.js</a><br>
+	│   ├── <a href="https://willinspire.github.io/admin/block-dark/assets/js/jquery.js">jquery.js</a><br>
+	│   ├── <a href="https://willinspire.github.io/admin/block-dark/assets/js/jquery.validate.js">jquery.validate.js</a><br>
+	│   ├── <a href="https://willinspire.github.io/admin/block-dark/assets/js/lineandbars.js">lineandbars.js</a><br>
+	│   └── <a href="https://willinspire.github.io/admin/block-dark/assets/js/noty/">noty</a><br>
+	│   &nbsp;&nbsp;&nbsp; ├── <a href="https://willinspire.github.io/admin/block-dark/assets/js/noty/jquery.noty.js">jquery.noty.js</a><br>
+	│   &nbsp;&nbsp;&nbsp; ├── <a href="https://willinspire.github.io/admin/block-dark/assets/js/noty/layouts/">layouts</a><br>
+	│   &nbsp;&nbsp;&nbsp; │   ├── <a href="https://willinspire.github.io/admin/block-dark/assets/js/noty/layouts/bottomCenter.js">bottomCenter.js</a><br>
+	│   &nbsp;&nbsp;&nbsp; │   ├── <a href="https://willinspire.github.io/admin/block-dark/assets/js/noty/layouts/bottom.js">bottom.js</a><br>
+	│   &nbsp;&nbsp;&nbsp; │   ├── <a href="https://willinspire.github.io/admin/block-dark/assets/js/noty/layouts/bottomLeft.js">bottomLeft.js</a><br>
+	│   &nbsp;&nbsp;&nbsp; │   ├── <a href="https://willinspire.github.io/admin/block-dark/assets/js/noty/layouts/bottomRight.js">bottomRight.js</a><br>
+	│   &nbsp;&nbsp;&nbsp; │   ├── <a href="https://willinspire.github.io/admin/block-dark/assets/js/noty/layouts/center.js">center.js</a><br>
+	│   &nbsp;&nbsp;&nbsp; │   ├── <a href="https://willinspire.github.io/admin/block-dark/assets/js/noty/layouts/centerLeft.js">centerLeft.js</a><br>
+	│   &nbsp;&nbsp;&nbsp; │   ├── <a href="https://willinspire.github.io/admin/block-dark/assets/js/noty/layouts/centerRight.js">centerRight.js</a><br>
+	│   &nbsp;&nbsp;&nbsp; │   ├── <a href="https://willinspire.github.io/admin/block-dark/assets/js/noty/layouts/inline.js">inline.js</a><br>
+	│   &nbsp;&nbsp;&nbsp; │   ├── <a href="https://willinspire.github.io/admin/block-dark/assets/js/noty/layouts/topCenter.js">topCenter.js</a><br>
+	│   &nbsp;&nbsp;&nbsp; │   ├── <a href="https://willinspire.github.io/admin/block-dark/assets/js/noty/layouts/top.js">top.js</a><br>
+	│   &nbsp;&nbsp;&nbsp; │   ├── <a href="https://willinspire.github.io/admin/block-dark/assets/js/noty/layouts/topLeft.js">topLeft.js</a><br>
+	│   &nbsp;&nbsp;&nbsp; │   └── <a href="https://willinspire.github.io/admin/block-dark/assets/js/noty/layouts/topRight.js">topRight.js</a><br>
+	│   &nbsp;&nbsp;&nbsp; ├── <a href="https://willinspire.github.io/admin/block-dark/assets/js/noty/promise.js">promise.js</a><br>
+	│   &nbsp;&nbsp;&nbsp; └── <a href="https://willinspire.github.io/admin/block-dark/assets/js/noty/themes/">themes</a><br>
+	│   &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; └── <a href="https://willinspire.github.io/admin/block-dark/assets/js/noty/themes/default.js">default.js</a><br>
+	├── <a href="https://willinspire.github.io/admin/block-dark/assets/manager/">manager</a><br>
+	│   ├── <a href="https://willinspire.github.io/admin/block-dark/assets/manager/css/">css</a><br>
+	│   │   ├── <a href="https://willinspire.github.io/admin/block-dark/assets/manager/css/elfinder.css">elfinder.css</a><br>
+	│   │   ├── <a href="https://willinspire.github.io/admin/block-dark/assets/manager/css/elfinder.min.css">elfinder.min.css</a><br>
+	│   │   └── <a href="https://willinspire.github.io/admin/block-dark/assets/manager/css/theme.css">theme.css</a><br>
+	│   ├── <a href="https://willinspire.github.io/admin/block-dark/assets/manager/files/">files</a><br>
+	│   │   ├── <a href="https://willinspire.github.io/admin/block-dark/assets/manager/files/Brian_May.jpg">Brian_May.jpg</a><br>
+	│   │   ├── <a href="https://willinspire.github.io/admin/block-dark/assets/manager/files/LionLogoTheme.jpg">LionLogoTheme.jpg</a><br>
+	│   │   └── <a href="https://willinspire.github.io/admin/block-dark/assets/manager/files/Lorem_Ipsum.txt">Lorem_Ipsum.txt</a><br>
+	│   ├── <a href="https://willinspire.github.io/admin/block-dark/assets/manager/img/">img</a><br>
+	│   │   ├── <a href="https://willinspire.github.io/admin/block-dark/assets/manager/img/arrows-active.png">arrows-active.png</a><br>
+	│   │   ├── <a href="https://willinspire.github.io/admin/block-dark/assets/manager/img/arrows-normal.png">arrows-normal.png</a><br>
+	│   │   ├── <a href="https://willinspire.github.io/admin/block-dark/assets/manager/img/crop.gif">crop.gif</a><br>
+	│   │   ├── <a href="https://willinspire.github.io/admin/block-dark/assets/manager/img/dialogs.png">dialogs.png</a><br>
+	│   │   ├── <a href="https://willinspire.github.io/admin/block-dark/assets/manager/img/icons-big.png">icons-big.png</a><br>
+	│   │   ├── <a href="https://willinspire.github.io/admin/block-dark/assets/manager/img/icons-small.png">icons-small.png</a><br>
+	│   │   ├── <a href="https://willinspire.github.io/admin/block-dark/assets/manager/img/logo.png">logo.png</a><br>
+	│   │   ├── <a href="https://willinspire.github.io/admin/block-dark/assets/manager/img/progress.gif">progress.gif</a><br>
+	│   │   ├── <a href="https://willinspire.github.io/admin/block-dark/assets/manager/img/quicklook-bg.png">quicklook-bg.png</a><br>
+	│   │   ├── <a href="https://willinspire.github.io/admin/block-dark/assets/manager/img/quicklook-icons.png">quicklook-icons.png</a><br>
+	│   │   ├── <a href="https://willinspire.github.io/admin/block-dark/assets/manager/img/resize.png">resize.png</a><br>
+	│   │   ├── <a href="https://willinspire.github.io/admin/block-dark/assets/manager/img/spinner-mini.gif">spinner-mini.gif</a><br>
+	│   │   └── <a href="https://willinspire.github.io/admin/block-dark/assets/manager/img/toolbar.png">toolbar.png</a><br>
+	│   ├── <a href="https://willinspire.github.io/admin/block-dark/assets/manager/js/">js</a><br>
+	│   │   ├── <a href="https://willinspire.github.io/admin/block-dark/assets/manager/js/elfinder.full.js">elfinder.full.js</a><br>
+	│   │   ├── <a href="https://willinspire.github.io/admin/block-dark/assets/manager/js/elfinder.min.js">elfinder.min.js</a><br>
+	│   │   ├── <a href="https://willinspire.github.io/admin/block-dark/assets/manager/js/i18n/">i18n</a><br>
+	│   │   │   ├── <a href="https://willinspire.github.io/admin/block-dark/assets/manager/js/i18n/elfinder.ar.js">elfinder.ar.js</a><br>
+	│   │   │   ├── <a href="https://willinspire.github.io/admin/block-dark/assets/manager/js/i18n/elfinder.bg.js">elfinder.bg.js</a><br>
+	│   │   │   ├── <a href="https://willinspire.github.io/admin/block-dark/assets/manager/js/i18n/elfinder.ca.js">elfinder.ca.js</a><br>
+	│   │   │   ├── <a href="https://willinspire.github.io/admin/block-dark/assets/manager/js/i18n/elfinder.cs.js">elfinder.cs.js</a><br>
+	│   │   │   ├── <a href="https://willinspire.github.io/admin/block-dark/assets/manager/js/i18n/elfinder.de.js">elfinder.de.js</a><br>
+	│   │   │   ├── <a href="https://willinspire.github.io/admin/block-dark/assets/manager/js/i18n/elfinder.es.js">elfinder.es.js</a><br>
+	│   │   │   ├── <a href="https://willinspire.github.io/admin/block-dark/assets/manager/js/i18n/elfinder.fr.js">elfinder.fr.js</a><br>
+	│   │   │   ├── <a href="https://willinspire.github.io/admin/block-dark/assets/manager/js/i18n/elfinder.hu.js">elfinder.hu.js</a><br>
+	│   │   │   ├── <a href="https://willinspire.github.io/admin/block-dark/assets/manager/js/i18n/elfinder.jp.js">elfinder.jp.js</a><br>
+	│   │   │   ├── <a href="https://willinspire.github.io/admin/block-dark/assets/manager/js/i18n/elfinder.LANG.js">elfinder.LANG.js</a><br>
+	│   │   │   ├── <a href="https://willinspire.github.io/admin/block-dark/assets/manager/js/i18n/elfinder.nl.js">elfinder.nl.js</a><br>
+	│   │   │   ├── <a href="https://willinspire.github.io/admin/block-dark/assets/manager/js/i18n/elfinder.no.js">elfinder.no.js</a><br>
+	│   │   │   ├── <a href="https://willinspire.github.io/admin/block-dark/assets/manager/js/i18n/elfinder.pl.js">elfinder.pl.js</a><br>
+	│   │   │   ├── <a href="https://willinspire.github.io/admin/block-dark/assets/manager/js/i18n/elfinder.pt_BR.js">elfinder.pt_BR.js</a><br>
+	│   │   │   ├── <a href="https://willinspire.github.io/admin/block-dark/assets/manager/js/i18n/elfinder.ru.js">elfinder.ru.js</a><br>
+	│   │   │   └── <a href="https://willinspire.github.io/admin/block-dark/assets/manager/js/i18n/elfinder.zh_CN.js">elfinder.zh_CN.js</a><br>
+	│   │   └── <a href="https://willinspire.github.io/admin/block-dark/assets/manager/js/proxy/">proxy</a><br>
+	│   │   &nbsp;&nbsp;&nbsp; └── <a href="https://willinspire.github.io/admin/block-dark/assets/manager/js/proxy/elFinderSupportVer1.js">elFinderSupportVer1.js</a><br>
+	│   └── <a href="https://willinspire.github.io/admin/block-dark/assets/manager/php/">php</a><br>
+	│   &nbsp;&nbsp;&nbsp; ├── <a href="https://willinspire.github.io/admin/block-dark/assets/manager/php/connector.php">connector.php</a><br>
+	│   &nbsp;&nbsp;&nbsp; ├── <a href="https://willinspire.github.io/admin/block-dark/assets/manager/php/elFinder.class.php">elFinder.class.php</a><br>
+	│   &nbsp;&nbsp;&nbsp; ├── <a href="https://willinspire.github.io/admin/block-dark/assets/manager/php/elFinderConnector.class.php">elFinderConnector.class.php</a><br>
+	│   &nbsp;&nbsp;&nbsp; ├── <a href="https://willinspire.github.io/admin/block-dark/assets/manager/php/elFinderVolumeDriver.class.php">elFinderVolumeDriver.class.php</a><br>
+	│   &nbsp;&nbsp;&nbsp; ├── <a href="https://willinspire.github.io/admin/block-dark/assets/manager/php/elFinderVolumeLocalFileSystem.class.php">elFinderVolumeLocalFileSystem.class.php</a><br>
+	│   &nbsp;&nbsp;&nbsp; ├── <a href="https://willinspire.github.io/admin/block-dark/assets/manager/php/elFinderVolumeMySQL.class.php">elFinderVolumeMySQL.class.php</a><br>
+	│   &nbsp;&nbsp;&nbsp; ├── <a href="https://willinspire.github.io/admin/block-dark/assets/manager/php/mime.types">mime.types</a><br>
+	│   &nbsp;&nbsp;&nbsp; └── <a href="https://willinspire.github.io/admin/block-dark/assets/manager/php/MySQLStorage.sql">MySQLStorage.sql</a><br>
+	└── <a href="https://willinspire.github.io/admin/block-dark/assets/index.html">index.html</a><br>
+	<br><br>
+	</p>
+	<p>
+
+17 directories, 111 files
+	<br><br>
+	</p>
+	<hr>
+	<p class="VERSION">
+		 tree v1.7.0 © 1996 - 2014 by Steve Baker and Thomas Moore <br>
+		 HTML output hacked and copyleft © 1998 by Francesc Rocher <br>
+		 JSON output hacked and copyleft © 2014 by Florian Sesser <br>
+		 Charsets / OS/2 support © 2001 by Kyosuke Tokoro
+	</p>
+</body>
+</html>
+
